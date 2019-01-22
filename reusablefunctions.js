@@ -3,6 +3,8 @@
 
 // Please note: Most of these functions require refactoring - therefore please feel free to make them better.
 
+// Eventually I'd also list table of contents so that it's easier to find what's required.
+
 
 // **************** // ***************** //
 // **************** // ***************** //

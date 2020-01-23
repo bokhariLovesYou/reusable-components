@@ -423,4 +423,7 @@ const checkPalindrome = inputString => {
 		items.push(arr.splice(0, k));
 	}
 	
+
+// Flatten an array of sub-arrays like a boss
+items.flat();
 	

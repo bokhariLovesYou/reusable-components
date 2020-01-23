@@ -410,4 +410,17 @@ const checkPalindrome = inputString => {
 }
 
 
-
+// Get duplicated items!!!!!
+	const arr = items.map(JSON.stringify).reverse() // convert to JSON string the array content, then reverse it (to check from end to begining)
+  	.filter(function(item, index, arr){ return arr.indexOf(item, index + 1) !== -1; }) // check if there is any occurence of the item in whole array
+  	.reverse().map(JSON.parse) // revert it to original state
+	
+	
+// Split an array into chunks of array
+	const k = 4 // this is basically the length of our chunks.
+	let items = [];
+	while (arr.length > 0) {
+		items.push(arr.splice(0, k));
+	}
+	
+	
